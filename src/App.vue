@@ -5,21 +5,16 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
+    
     <div class="wrapper">
       <HelloWorld msg="Personajes de Rick & Morty" />
 
       <nav>
+      <div class="my-7">
         <RouterLink to="/">Inicio</RouterLink>
         <RouterLink to="/personajes">Personajes</RouterLink>
         <RouterLink to="/about">Acerca de</RouterLink>
+      </div>
       </nav>
     </div>
   </header>
