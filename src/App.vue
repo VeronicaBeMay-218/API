@@ -6,12 +6,12 @@ import HelloWorld from "./components/HelloWorld.vue";
 <template>
   <header>
     
-    <div class="wrapper">
+    <div class="text-amber-100 text-amber-800">
       <HelloWorld msg="Personajes de Rick & Morty" />
 
       <nav>
       <div class="my-7">
-        <RouterLink to="/">Inicio</RouterLink>
+        <RouterLink to="/" class="text-amber-100">Inicio</RouterLink>
         <RouterLink to="/personajes">Personajes</RouterLink>
         <RouterLink to="/about">Acerca de</RouterLink>
       </div>
