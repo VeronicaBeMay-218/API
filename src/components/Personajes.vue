@@ -35,8 +35,6 @@ export default {
     }
   },
 
-
-
 }
 
 </script>
@@ -47,6 +45,7 @@ export default {
   <ul>
     <li v-for="p in personajes">
       <a >{{ p.name }} id:{{ p.id }}</a> 
+      <img v-bind:src="p.image"  alt="no image">
     </li>
   </ul>
 </template>
