@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Personajes from './components/Personajes.vue'
 import Cabecera from './components/Cabecera.vue'
+import Card from './components/Card.vue'
 
 </script>
 
@@ -29,6 +30,8 @@ import Cabecera from './components/Cabecera.vue'
         </div>
     </nav>
     <Cabecera/>
+   
+    
     </div>
   </header>
   
