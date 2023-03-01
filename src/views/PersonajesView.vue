@@ -3,7 +3,7 @@ import Personajes from "../components/Personajes.vue";
 </script>
 
 <template>
-  <div class="text-orange-700">
+  <div class="text-2xl text-center">
     <h1>Personajes del programa</h1>
 
     <Personajes />
